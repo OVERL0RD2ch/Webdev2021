@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #393939;
+            font-weight: normal;
+            background: #FAFAFA;
+        }
+        .sleva{
+            position: absolute;
+            display: flex;
+            left: 300px;
+            width: 150px;
+            top: 60px;
+        }
+        .container1{
+            align-content: center;
+            background: white;
+            border: 1px solid #DBDBDB;
+            border-radius: 1px;
+            padding: 30px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 350px;
+            left: 741px;
+            top: 80px;
+        }
+        .logo{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+        .login, .pass{
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+            color: #999999;
+            background: #fafafa;
+            width: 280px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #efefef;
+            font-size: 12px;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+        .sing-in{
+            background-color: #3897f0;
+            border-radius: 5px;
+            height: 40px;
+            width: 288px;
+            color: white;
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+            appearance: none;
+            border: 0px;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .line, .line2{
+            border-bottom: 1px solid #dbdbdb;
+            margin-left: 10px;
+            margin-top: 25px;
+            width: 100px;
+        }
+        .line2{
+            margin-left: 198px;
+            margin-top: -22px;
+        }
+        #or{
+            margin-left: 140px;
+            font-size: 10px;
+            margin-top: -20px;
+            color: #999999;
+        }
+        .fb-login{
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+            font-weight: 600;
+            height: 5px;
+            text-align: center;
+            font-size: 15px;
+            color:#596E99;
+            margin-top: 30px;
+        }
+        .forgot-pass{
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .container2{
+            align-content: center;
+            background: white;
+            border: 1px solid #DBDBDB;
+            border-radius: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            height: 45px;
+            left: 741px;
+            top: 500px;
+        }
+        .net{
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            width: 400px;
+            text-align: center;
+            font-size: 15px;
+            color: #1C1E21;
+            margin-left: -20px;
+        }
+        #zhirn{
+            color: #1877f2;
+        }
+        .app1{
+            align-content: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            height: 45px;
+            left: 741px;
+            top: 560px;
+        }
+        .app{
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+            font-weight: 500;
+            width: 400px;
+            text-align: center;
+            font-size: 15px;
+            color: #1C1E21;
+            margin-left: -20px;
+        }
+        #appst, #play{
+            width: 150px;
+            margin-left: 20px;
+        }
+        #play{
+            margin-left: 180px;
+            margin-top: -45px;
+        }
+        .footer{
+            width: 850px;
+            height: 122px;
+            margin-left: 300px;
+            padding-top: 700px;
+            justify-content: center;
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            margin: 15px;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 1.6;
+        }
+        li{
+            padding-right: 18px;
+            text-align: center;
+        }
+
+        .options a{
+            text-decoration: none;
+            color:rgb(165,167,171);
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .footer p{
+            font-size: 10px;
+            color: #999;
+            font-weight: 400;
+            margin-top: -5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="sleva">
+        <img src="/web/Снимок экрана 2021-02-20 в 12.11.18.png">
+    </div>
+<div class="sprava">
+    <div class="container1">
+        <img class= "logo" src="https://free-png.ru/wp-content/uploads/2019/05/tsvetnaya-nadpis-instagram-t.png">
+        <div class = "registration">
+        <form>
+            <section class="user">
+            <input class="login" name="login" placeholder="Номер телефона, имя пользователя или электронная почта">
+            </section>
+            <section class="parol">
+            <input class="pass" name="pass" type="password" placeholder="Пароль">
+            </section>
+            <button class="sing-in">
+                Войти
+            </button>
+            <div class="line"></div>
+            <div id="or"><h2>ИЛИ</h2></div>
+            <div class="line2"></div>
+        </form>
+            <p class="fb-login">
+                <a class="facebook">Войти через Facebook</a>
+            </p>
+            <p class="fb-login">
+                <a class ="forgot-pass">Забыли пароль?</a>
+            </p>
+            </div>
+
+        </div>
+        <div class="container2">
+            <p class="net">У вас ещё нет аккаунта? <strong id="zhirn">Зарегистрироваться</strong></p>
+        </div>
+    <div class="app1">
+        <p class="app">Установите приложение</p>
+        <img id="appst" src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_russian-ru.png/bfba6d0fd6bd.png">
+        <img id="play" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_russian-ru.png/4c70948c09f3.png">
+        </div>
+</div>
+    <div class="footer">
+        <ul class="options">
+            <li><a href="https://about.instagram.com/about-us" target="_blank">Информация</a></li>
+            <li><a href="https://help.instagram.com/" target="_blank">Блог</a></li>
+            <li><a href="https://instagram-press.com/" target="_blank">Вакансии</a></li>
+            <li><a href="https://www.instagram.com/developer/" target="_blank">Помощь</a></li>
+            <li><a href="https://www.instagram.com/about/jobs/" target="_blank">API</a></li>
+            <li><a href="https://help.instagram.com/519522125107875" target="_blank">Конфеденциальность</a></li>
+            <li><a href="https://help.instagram.com/581066165581870" target="_blank">Условия</a></li>
+            <li><a href="https://www.instagram.com/explore/locations/" target="_blank">Популярные Аккаунты</a></li>
+            <li><a href="https://www.instagram.com/directory/hashtags/" target="_blank">Хэштеги</a></li>
+            <li><a href="https://www.instagram.com/directory/profiles/" target="_blank">Места</a></li>
+            <li><a href="https://help.instagram.com/" target="_blank">Красота</a></li>
+            <li><a href="https://about.instagram.com/about-us" target="_blank">Танцы и выступления</a></li>
+            <li><a href="https://instagram-press.com/" target="_blank">Фитнес</a></li>
+            <li><a href="https://www.instagram.com/developer/" target="_blank">Еда и напитки</a></li>
+            <li><a href="https://www.instagram.com/about/jobs/" target="_blank">Дом и сад</a></li>
+            <li><a href="https://help.instagram.com/519522125107875" target="_blank">Музыка</a></li>
+            <li><a href="https://help.instagram.com/581066165581870" target="_blank">Изобритательное исскуство</a></li>
+
+
+        </ul>
+        <p>© INSTAGRAM ОТ FACEBOOK, 2021</p>
+    </div>
+</body>
+</html>

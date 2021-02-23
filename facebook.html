@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: #F0F2F5;
+            color: #1C1E21;
+    }
+        h1{
+            position: absolute;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            width: 500px;
+            padding-left: 250px;
+            padding-top: 120px;
+        }
+        #logo{
+            position: absolute;
+            width: 300px;
+            padding-left: 220px;
+            padding-top: 40px;
+        }
+        .sleva{
+            margin-top: 170px;
+            margin-right: 20px;
+        }
+        .rectang{
+            position: absolute;
+            width: 395px;
+            height: 348px;
+            left: 814px;
+            top: 137px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+        }
+        .sprava{
+            max-width: 450px;
+            margin: auto;
+            text-align: center;
+        }
+        .line1{
+            position: absolute;
+            width: 364px;
+            height: 0px;
+            left: 830px;
+            top: 388px;
+            border: 1px solid #F0F2F5;
+        }
+        .line2 {
+            position: absolute;
+            width: 977px;
+            height: 0px;
+            left: 229px;
+            top: 680px;
+
+            border: 1px solid #F0F2F5;
+        }
+        .polya{
+            position: absolute;
+            left: 830px;
+            top: 170px;
+        }
+        input.login{
+            width:  334px;
+            height: 40px;
+            padding: 5px 10px 5px 10px;
+            border:1px solid #999;
+            font-size:16px;
+            display: flex;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        input.pass{
+            width:  334px;
+            height: 40px;
+            padding: 5px 10px 5px 10px;
+            border:1px solid #999;
+            font-size:16px;
+            display: flex;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        input.vxod{
+            width:  360px;
+            height: 55px;
+            padding: 5px 10px 5px 10px;
+            background-color: #1877f2;
+            color: white;
+            font-size:20px;
+            display: flex;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+        }
+        INPUT.pass:focus {
+            border: 1px solid #1877f2;
+        }
+        INPUT.login:focus {
+            border: 1px solid #1877f2;
+        }
+        .makeacc{
+            position: relative;
+            width:  200px;
+            height: 55px;
+            padding: 5px 10px 5px 10px;
+            background-color: #00C000;
+            color: white;
+            font-size:20px;
+            display: flex;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        p.forgot{
+            position: relative;
+            color: #1877f2;
+            font-size:14px;
+            margin-top: 10px;
+            text-align: center;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        }
+        p.celeb{
+            left: 335px;
+            top: 350px;
+            width: 350px;
+            position: relative;
+            color: #1C1E21;
+            font-size:14px;
+            margin-top: 10px;
+            text-align: center;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        }
+        li{
+
+            padding-left: 10px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 13px;
+        }
+        li a{
+            color: #385898;
+            text-decoration: none;
+            margin-top: 400px;
+        }
+        .footer{
+            width: 1024px;
+            left:50%;
+            height: 170px;
+            margin:0 auto;
+            padding-top: 25px;
+        }
+        .footer a{
+            padding: 0;
+            margin: 0;
+            color: rgb(165,167,171);
+            text-decoration: none;
+        }
+        ul.languages, ul.footer2{
+            list-style-type: none;
+            margin: 15px;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 1.6;
+
+        }
+        .foot-cont {
+            margin-top: 430px;
+            background-color: #fff;
+        }
+        .copyright{
+            margin-left: 40px;
+            margin-top: 5px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            color: #737373;
+        }
+    </style>
+</head>
+
+<body>
+<div class="sleva">
+    <img id="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+    <h1>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h1>
+    </div>
+
+<div class="sprava">
+    <p class="rectang"> </p>
+    <p class="line1"> </p>
+    <form class="polya">
+        <input class="login" name="login" placeholder="Электронный адрес или номер телефона">
+        <input class="pass" name="pass" type="password" placeholder="Пароль">
+        <input class="vxod" type="button" value="Вход">
+        <p class="forgot">Забыли пароль?</p>
+        <button class="makeacc"> Создать аккаунт </button>
+    </form>
+    <p class="celeb"><strong>Создать Страницу</strong> знаменитости, музыкальной группы или компании.</p>
+</div>
+<div class="foot-cont">
+<div class="footer">
+    <ul class="languages">
+        <li>Русский</li>
+        <li>English (US)</li>
+        <li>Türkçe</li>
+        <li>Bahasa Indonesia</li>
+        <li>中文(简体)</li>
+        <li>Қазақша</li>
+        <li>Deutsch</li>
+        <li>한국어</li>
+        <li>Shqip</li>
+        <li>Español</li>
+        <li>Português (Brasil)</li>
+        <button>+</button>
+    </ul>
+    <p class="line2"> </p>
+
+    <ul class="footer2">
+        <li>Регистрация</li>
+        <li>Вход</li>
+        <li>Messenger</li>
+        <li>Facebook Lite</li>
+        <li>Watch</li>
+        <li>Люди</li>
+        <li>Страницы</li>
+        <li>Категории страниц</li>
+        <li>Места</li>
+        <li>Игры</li>
+        <li>Места</li>
+        <li>Marketplace</li>
+        <li>Facebook Pay</li>
+        <li>Вакансии</li>
+        <li>Oculus</li>
+        <li>Portals</li>
+        <li>Instagram</li>
+        <li>Местные</li>
+        <li>Благотворительные акции</li>
+        <li>Услуги</li>
+        <li>Центр информации о голосовании</li>
+        <li>Создать рекламу</li>
+        <li>Создать страницу</li>
+        <li>Разработчикам</li>
+        <li>Вакансии</li>
+        <li>Конфиденциальность</li>
+        <li>Файлы сookie</li>
+        <li>Выбор рекламы</li>
+        <li>Условия использования</li>
+        <li>Справка</li>
+    </ul>
+    <h5 class="copyright">Facebook © 2021</h5>
+</div>
+</div>
+</body>
+</html>
